@@ -1,0 +1,82 @@
+h1 {
+  text-align: center;
+  background-color: white;
+  color: #43782D;
+
+}
+
+div {
+  background-color: white;
+  padding: 50px;
+  margin: 20px auto;
+  width: 1000px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px #43782D;
+}
+
+#img-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+body {
+  text-align: center;
+  background-color: #eeeeef;
+  font-family: saira stencil one;
+}
+
+div  > ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+div > ul > li {
+  display: inline-block;
+}
+
+.fab {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.btn-green {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+  background-color: #43782D;
+  color: white;
+  font-weight: bold;
+}
+
+.fa-facebook {
+  color: #3B5998;
+}
+
+.fa-github-square {
+  color: #24292E;
+}
+
+.fa-linkedin {
+  color: #0073B0;
+}
+
+@media (max-width: 1000px) {
+  /* For a screen < 960px, this CSS will be read */
+  div {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  div {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  div {
+    width: 300px;
+  }
+}
